@@ -1,0 +1,75 @@
+@media only screen and (width:1024px){
+    
+    .section-4 .card{
+        width:18rem;
+    }
+    .section-4 .carousel-inner{
+        width:28rem;
+        margin-left: -17vmin;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    header .navbar-brand{
+        padding-left:1rem;
+    }
+    .section-1 .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .section-2 .cover{
+        background-position: center;
+    }
+    .numbers .rect{
+        width: 15rem;
+        height: 10rem;
+    }
+    .numbers .rect h1{
+        font-size: 2rem;
+    }
+    .section-3{
+        height: initial;
+        padding:10vmin !important;
+    }
+    .section-3 .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .section-3 .row .col-md-6{
+        text-align: center !important;
+    }
+    
+    .section-4 .team{
+        display: flex; 
+        flex-direction: column; 
+        align-content: center;
+        
+    }
+
+    .section-4 .carousel-inner{
+        width:28rem;
+        margin-left: -12.8vmin;
+    }
+}
+@media only screen and (max-width:425px){
+    footer .row .col-md-2{
+        margin-top:8vmin;
+        
+    }
+}
+@media only screen and (max-width:375px){
+    .section-4 .carousel-inner{
+        margin-left: -19vmin;
+    }
+}
+
+   
+@media only screen and (max-width:320px){
+    .section-4 .card{
+        width:18rem;
+    }
+    .section-4 .carousel-inner{
+        margin-left: -31vmin;
+    }
+}
